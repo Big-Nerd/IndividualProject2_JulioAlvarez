@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IndividualProject2_JulioAlvarez</string>
+    <string name="game_description">The following is a Quiz Game. You will be asked 5 questions, a mix of multiple choice and multiple answers, choose the correct answer(s) for each. When you are ready click next to proceed to the game</string>
+    <string name="question1">Question#1: Which one of the following is not a relational operator. Only one answer</string>
+    <string name="q1val1">==</string>
+    <string name="q1val2">></string>
+    <string name="q1val3">!=</string>
+    <string name="q1val4">||</string>
+    <string name="question2">Question#2: Which of these teams is in the AL East division. Pick two answers</string>
+    <string name="q2val1">Yankees</string>
+    <string name="q2val2">White Sox</string>
+    <string name="q2val3">Red Sox</string>
+    <string name="q2val4">Mariners</string>
+    <string name="question3">Question#3: How many rings are there in the Olympic flag</string>
+    <string name="q3val1">None</string>
+    <string name="q3val2">4</string>
+    <string name="q3val3">5</string>
+    <string name="q3val4">7</string>
+    <string name="question4">Question#4: How did Spider-Man get his powers</string>
+    <string name="q4val1">Experiment gone wrong</string>
+    <string name="q4val2">Bitten by radioactive spider</string>
+    <string name="q4val3">Woke up with them</string>
+    <string name="q4val4">Born with them</string>
+    <string name="question5">Question#5: What are the colors of the Spanish flag</string>
+    <string name="q5val1">Black and Gold</string>
+    <string name="q5val2">Green and Red</string>
+    <string name="q5val3">Red and Yellow</string>
+    <string name="q5val4">Blue and Silver</string>
+</resources>

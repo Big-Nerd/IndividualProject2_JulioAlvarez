@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/question2"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/q2cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/q2val1"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q2cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2cb1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/q2cb1"
+        android:layout_marginTop="15dp"
+        android:text="@string/q2val2"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q2cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2cb2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/q2cb2"
+        android:layout_marginTop="15dp"
+        android:text="@string/q2val3"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q2cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2cb3"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/q2cb3"
+        android:layout_marginTop="15dp"
+        android:text="@string/q2val4"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/q2btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q2cb4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="next"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"/>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity4">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/question4"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <CheckBox
+        android:id="@+id/q4cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/q4val1"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q4cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q4cb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/q4cb1"
+        android:text="@string/q4val2"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q4cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q4cb2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/q4cb2"
+        android:text="@string/q4val3"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/q4cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q4cb3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignStart="@id/q4cb3"
+        android:text="@string/q4val4"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/q4btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/q4cb4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="next"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple_500"/>
+
+</RelativeLayout>
